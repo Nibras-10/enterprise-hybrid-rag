@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: enterprise-hybrid-rag-api
+    runtime: python
+    plan: starter
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: false
+    disk:
+      name: enterprise-hybrid-rag-data
+      mountPath: /var/data
+      sizeGB: 10
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DOCUMENT_STORAGE_PATH
+        value: /var/data/uploads
+      - key: BM25_INDEX_PATH
+        value: /var/data/bm25
+      - key: EVALUATION_RUNS_PATH
+        value: /var/data/evaluation/runs
+      - key: LANGFUSE_ENABLED
+        value: "false"
+      - key: SUPABASE_DATABASE_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_INDEX_NAME
+        sync: false
+      - key: COHERE_API_KEY
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: LANGFUSE_PUBLIC_KEY
+        sync: false
+      - key: LANGFUSE_SECRET_KEY
+        sync: false
+      - key: LANGFUSE_HOST
+        sync: false
+      - key: API_BEARER_TOKEN
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false

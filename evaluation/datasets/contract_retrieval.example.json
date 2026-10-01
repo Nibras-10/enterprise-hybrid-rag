@@ -1,0 +1,42 @@
+{
+  "name": "contract-retrieval-example",
+  "description": "Replace placeholder labels with chunk IDs and references from a representative contract corpus.",
+  "questions": [
+    {
+      "question": "What events allow either party to terminate the agreement?",
+      "ground_truth": "Add the verified answer from the source contract.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    },
+    {
+      "question": "Does section 12.4 impose a 30-day notice period?",
+      "ground_truth": "Add the verified answer from the source contract.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    },
+    {
+      "question": "Which party bears the stated indemnification obligations?",
+      "ground_truth": "Add the verified answer from the source contract.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    },
+    {
+      "question": "What was the amount of the payment due on 2025-03-31?",
+      "ground_truth": "Add the verified answer from the source contract.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    },
+    {
+      "question": "What obligations apply across the confidentiality and data protection sections?",
+      "ground_truth": "Add the verified answer from the source contract.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    },
+    {
+      "question": "What are the termination conditions in the agreement?",
+      "ground_truth": "The supplied document does not specify the requested condition.",
+      "relevant_chunk_ids": [],
+      "relevant_contexts": []
+    }
+  ]
+}
