@@ -15,3 +15,4 @@ ragas>=0.4.3,<0.5
 datasets>=4.8,<5.0
 langfuse>=4.16,<5.0
 redis>=5.0,<7.0
+unstructured-inference>=1.6.0
