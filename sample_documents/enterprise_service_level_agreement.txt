@@ -1,0 +1,84 @@
+MASTER SERVICES AGREEMENT (MSA-2026-X94)
+
+This Master Services Agreement ("Agreement") is entered into as of January 15, 2026 ("Effective Date"), by and between CloudScale Enterprise Solutions Inc., a Delaware corporation with its principal office at 400 Tech Parkway, Suite 800, San Francisco, CA 94107 ("Service Provider"), and Apex Global Financial Group LLC, a New York limited liability company with its principal office at 120 Wall Street, 22nd Floor, New York, NY 10005 ("Customer"). Service Provider and Customer are individually referred to as a "Party" and collectively as the "Parties."
+
+SECTION 1: SCOPE OF SERVICES
+
+1.1 Services. Service Provider agrees to provide Customer with enterprise cloud infrastructure, hybrid retrieval-augmented AI search capabilities, managed vector database indexing, and related support services (the "Services") as set forth in one or more Statements of Work ("SOW") executed by both Parties.
+
+1.2 Service Standards. Service Provider shall perform all Services in a professional, workmanlike manner conforming to prevailing industry standards and the specifications set forth in Exhibit A (Service Level Agreement).
+
+1.3 Security and Compliance. Service Provider shall maintain administrative, physical, and technical safeguards designed to protect Customer Data against unauthorized access, disclosure, or destruction. Service Provider guarantees SOC 2 Type II compliance, ISO/IEC 27001 certification, and compliance with the EU General Data Protection Regulation (GDPR).
+
+
+SECTION 2: FEES AND PAYMENT TERMS
+
+2.1 Platform Subscription Fee. Customer shall pay an annual base platform fee of $240,000, payable in advance in equal quarterly installments of $60,000 on the first day of each calendar quarter.
+
+2.2 Consumption Charges. Dedicated vector query nodes and embedding compute units exceeding 100,000,000 tokens per billing cycle shall be billed at $0.00015 per 1,000 tokens.
+
+2.3 Invoicing and Payment Terms. All invoices issued by Service Provider are due and payable within forty-five (45) days of the invoice date ("Net 45"). Undisputed amounts past due by more than thirty (30) days will accrue interest at the lesser of 1.5% per month or the maximum statutory rate allowed by law.
+
+2.4 Disputed Invoices. Customer must notify Service Provider in writing within twenty (20) business days of invoice receipt if Customer disputes any line item. Undisputed portions must be paid in accordance with Section 2.3.
+
+
+SECTION 3: SERVICE LEVEL AGREEMENT (SLA) & PERFORMANCE CREDITS
+
+3.1 System Availability. Service Provider commits to achieving a Monthly Uptime Percentage of not less than 99.95% ("Availability Commitment"), measured twenty-four (24) hours per day, seven (7) days per week across each calendar month, excluding Scheduled Maintenance.
+
+3.2 Service Credit Schedule. If Service Provider fails to satisfy the Availability Commitment, Customer is entitled to the following Service Credits applied against the subsequent month's invoice:
+
+- Monthly Uptime between 99.0% and 99.94%: 10% credit of the monthly prorated base fee.
+- Monthly Uptime between 98.0% and 98.99%: 25% credit of the monthly prorated base fee.
+- Monthly Uptime below 98.0%: 50% credit of the monthly prorated base fee.
+
+3.3 Incident Severity and Response Times. Support requests shall be prioritized according to the following matrix:
+
+Severity Level 1 (Critical Outage): Core retrieval API down, total query failure. Target Response Time: 15 minutes. Resolution Target: 2 hours.
+Severity Level 2 (Major Degradation): Ingestion pipeline delayed, indexing latency above 5x normal. Target Response Time: 1 hour. Resolution Target: 8 hours.
+Severity Level 3 (Minor Defect): Administrative UI error or non-blocking report failure. Target Response Time: 4 hours. Resolution Target: 2 business days.
+
+
+SECTION 4: DATA PRIVACY AND INTELLECTUAL PROPERTY
+
+4.1 Ownership of Customer Data. Customer retains sole and exclusive ownership of all right, title, and interest in and to all data, text, files, documents, and embeddings submitted by Customer into the platform ("Customer Data").
+
+4.2 Model Training Prohibition. Service Provider warrants that Customer Data, queries, and document chunks shall never be used to train, retrain, fine-tune, or benchmark public foundation models or third-party artificial intelligence systems.
+
+4.3 Work Product and Platform IP. Service Provider retains sole and exclusive ownership of the platform, proprietary algorithms, parser heuristics, hybrid search fusion logic, and underlying software code.
+
+
+SECTION 5: CONFIDENTIALITY
+
+5.1 Definition. "Confidential Information" means all non-public information disclosed by one Party to the other that is marked as confidential or that should reasonably be understood to be confidential given the nature of the information and circumstances of disclosure.
+
+5.2 Standard of Care. Each Party agrees to protect the Confidential Information of the other Party with the same degree of care it uses to protect its own confidential information of like nature, but no less than reasonable care.
+
+5.3 Exclusions. Confidential Information does not include information that: (a) becomes publicly available through no breach of this Agreement; (b) was already known to the receiving Party without restriction prior to disclosure; (c) is independently developed without reference to the disclosing Party's Confidential Information; or (d) is rightfully received from a third party without duty of confidentiality.
+
+
+SECTION 6: INDEMNIFICATION AND LIMITATION OF LIABILITY
+
+6.1 IP Indemnification by Service Provider. Service Provider shall defend, indemnify, and hold harmless Customer and its officers, directors, and employees against any third-party claims, suits, or proceedings alleging that Customer's authorized use of the Services infringes or misappropriates any valid copyright, trademark, or patent.
+
+6.2 Total Liability Cap. Except for breaches of Section 5 (Confidentiality) or indemnification obligations under Section 6.1, each Party's maximum aggregate cumulative liability under this Agreement shall be capped at the total amount actually paid by Customer in the twelve (12) months preceding the event giving rise to liability, not to exceed $2,500,000 ("Aggregate Liability Cap").
+
+6.3 Consequential Damages Waiver. In no event shall either Party be liable for indirect, incidental, punitive, or consequential damages, including loss of profits, revenue, or business interruption, regardless of whether advised of the possibility of such damages.
+
+
+SECTION 7: TERM AND TERMINATION
+
+7.1 Term. This Agreement commences on the Effective Date and continues for an initial period of thirty-six (36) months ("Initial Term"), after which it automatically renews for successive twelve (12) month terms unless either Party provides written notice of non-renewal at least sixty (60) days prior to the expiration of the then-current term.
+
+7.2 Termination for Cause. Either Party may terminate this Agreement immediately upon written notice if the other Party materially breaches any term and fails to cure such breach within thirty (30) days of receiving written notice.
+
+7.3 Termination for Convenience. Customer may terminate this Agreement without cause upon ninety (90) days' advance written notice, subject to payment of an Early Termination Fee equal to fifty percent (50%) of the remaining quarterly base fees for the remainder of the Initial Term.
+
+7.4 Post-Termination Data Retention. Upon termination or expiration of this Agreement, Service Provider shall provide Customer forty-five (45) days to export all Customer Data and documents. Following expiration of the 45-day window, Service Provider shall permanently purge and securely destroy all Customer Data, vectors, and backups within thirty (30) days in accordance with NIST SP 800-88 standards.
+
+
+SECTION 8: GOVERNING LAW AND DISPUTE RESOLUTION
+
+8.1 Governing Law. This Agreement shall be governed by, and construed in accordance with, the laws of the State of Delaware, without giving effect to conflict of laws principles.
+
+8.2 Arbitration. Any controversy or claim arising out of or relating to this Agreement shall be settled by binding arbitration administered by the American Arbitration Association (AAA) in New York City, New York, before a single neutral arbitrator.
