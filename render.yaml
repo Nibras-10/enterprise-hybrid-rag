@@ -13,6 +13,8 @@ services:
       mountPath: /var/data
       sizeGB: 10
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
       - key: APP_ENV
         value: production
       - key: DOCUMENT_STORAGE_PATH
